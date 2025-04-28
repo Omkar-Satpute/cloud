@@ -1,7 +1,7 @@
 # Variables
 APP_NAME = cloud
 DOCKER_USER = Omkar1508
-IMAGE=$(DOCKER_USER)/$(APP_NAME):latest
+IMAGE= docker.io/$(DOCKER_USER)/$(APP_NAME):latest
 KUBE_DEPLOYMENT=kubernetes/deployment.yaml
 
 # Commands
